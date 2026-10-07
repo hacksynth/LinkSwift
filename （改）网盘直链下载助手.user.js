@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @name              LinkSwift
 // @namespace         github.com/hmjz100
-// @version           1.1.5
+// @version           1.1.6
 // @author            Hmjz100、油小猴
 // @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8+PHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8+PHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=
 // @description       (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 光鸭云盘 / 夸克网盘 / UC网盘 / 123云盘 九大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
@@ -110,7 +110,7 @@
  * @author hmjz100
  * @namespace github.com/hmjz100
  * @description  一个基于 JavaScript 盘的文件下载地址获取工具  支持 百度网盘/阿里云盘/中国移动云盘/天翼云盘/迅雷云盘/夸克网盘/UC网盘/123云盘 九大网盘  代码改自 “网盘直链下载助手”，作者油小猴
- * @version 1.1.5
+ * @version 1.1.6
  * @license AGPL-3.0-or-later
  * @see {@link https://github.com/hmjz100/LinkSwift/ Github 仓库}
  */
@@ -1553,58 +1553,351 @@
 		},
 
 		/**
-		 * 构造飞牛 fnOS 下载中心（dlcenter）的 RPC 请求
+		 * 生成飞牛 fnOS 登录所需的随机密钥串
 		 * @author hacksynth
-		 * @description 飞牛系统以 `appcgi.*` 命名空间提供 RPC 服务，请求体形如 `{ req, data, token }`，
-		 * 令牌也可放在 Cookie（`fnos-token` / `fnos-long-token`）中；此处同时携带以兼容不同系统版本。
-		 * 参数同时平铺与嵌套于 `data` 中，兼容两种解析风格。
-		 * @param {Object} server - fnOS 服务配置项（domain、port、token、longToken）
-		 * @param {Object} params - RPC 参数（必须包含 `req` 字段）
-		 * @returns {{url: String, headers: Object, data: Object}} 请求配置
+		 * @description 与官方实现一致，从 62 个字符中随机取 length 个字符作为 AES 密钥
+		 * @param {Number} [length=32] - 密钥长度
+		 * @returns {String} 随机密钥串
 		 */
-		fnosRpc(server, params) {
-			const origin = `${(server.domain || "").replace(/\/+$/, "")}:${server.port || ""}`;
-			const headers = { "Content-Type": "application/json;charset=UTF-8" };
-			const data = { ...params, data: { ...params } };
-			delete data.data.req;
-			const cookies = [];
-			let query = "";
-			if (server.token) {
-				data.token = server.token;
-				cookies.push(`fnos-token=${server.token}`);
-				query = `?token=${encodeURIComponent(server.token)}`;
-			}
-			if (server.longToken) {
-				data.longToken = server.longToken;
-				cookies.push(`fnos-long-token=${server.longToken}`);
-				if (!query) query = `?token=${encodeURIComponent(server.longToken)}`;
-			}
-			if (cookies.length) headers.Cookie = cookies.join("; ");
-			return { url: `${origin}/cgi${query}`, headers, data };
+		fnosRandomKey(length = 32) {
+			const chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			const random = new Uint8Array(length);
+			window.crypto.getRandomValues(random);
+			let key = "";
+			for (let i = 0; i < length; i++) key += chars[random[i] % chars.length];
+			return key;
 		},
 
 		/**
-		 * 飞牛 fnOS 下载中心 RPC 服务测试
+		 * Uint8Array 转 Base64
 		 * @author hacksynth
-		 * @description 通过只读接口 `appcgi.downloadcenter.config.getDefaultSaveDir` 验证地址与令牌是否可用
-		 * @param {String} domain - 服务域名
-		 * @param {String} port - 服务端口
-		 * @param {String} token - 会话令牌
-		 * @param {String} longToken - 长期令牌
+		 * @param {Uint8Array} bytes - 字节数组
+		 * @returns {String} Base64 字符串
+		 */
+		fnosToBase64(bytes) {
+			const view = bytes instanceof Uint8Array ? bytes : new Uint8Array(bytes);
+			let binary = "";
+			for (let i = 0; i < view.length; i++) binary += String.fromCharCode(view[i]);
+			return btoa(binary);
+		},
+
+		/**
+		 * Base64 转 Uint8Array
+		 * @author hacksynth
+		 * @param {String} text - Base64 字符串
+		 * @returns {Uint8Array} 字节数组
+		 */
+		fnosFromBase64(text) {
+			const binary = atob(text);
+			const bytes = new Uint8Array(binary.length);
+			for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+			return bytes;
+		},
+
+		/**
+		 * 大数模幂运算
+		 * @author hacksynth
+		 * @param {BigInt} value - 底数
+		 * @param {BigInt} exponent - 指数
+		 * @param {BigInt} modulus - 模数
+		 * @returns {BigInt} 运算结果
+		 */
+		fnosModPow(value, exponent, modulus) {
+			let result = 1n;
+			let current = value % modulus;
+			let power = exponent;
+			while (power > 0n) {
+				if (power & 1n) result = (result * current) % modulus;
+				current = (current * current) % modulus;
+				power >>= 1n;
+			}
+			return result;
+		},
+
+		/**
+		 * 读取 DER 编码中的一段内容
+		 * @author hacksynth
+		 * @param {Uint8Array} bytes - DER 数据
+		 * @param {Number} offset - 起始偏移
+		 * @returns {{start: Number, end: Number, next: Number}} 内容区间
+		 */
+		fnosReadDer(bytes, offset) {
+			let cursor = offset + 1;
+			let length = bytes[cursor++];
+			if (length & 0x80) {
+				const count = length & 0x7f;
+				length = 0;
+				for (let i = 0; i < count; i++) length = length * 256 + bytes[cursor++];
+			}
+			return { start: cursor, end: cursor + length, next: cursor + length };
+		},
+
+		/**
+		 * 解析 PEM 格式的 RSA 公钥
+		 * @author hacksynth
+		 * @description 从 SubjectPublicKeyInfo 中取出模数与指数
+		 * @param {String} pem - PEM 公钥
+		 * @returns {{n: BigInt, e: BigInt, size: Number}} 公钥参数
+		 */
+		fnosParseRsaKey(pem) {
+			const der = base.fnosFromBase64(String(pem).replace(/-----[^-]+-----/g, "").replace(/\s+/g, ""));
+			const outer = base.fnosReadDer(der, 0);
+			const algorithm = base.fnosReadDer(der, outer.start);
+			const bitString = base.fnosReadDer(der, algorithm.next);
+			const inner = base.fnosReadDer(der, bitString.start + 1);
+			const modulus = base.fnosReadDer(der, inner.start);
+			const exponent = base.fnosReadDer(der, modulus.next);
+			const toBigInt = (item) => {
+				let hex = "";
+				for (let i = item.start; i < item.end; i++) hex += der[i].toString(16).padStart(2, "0");
+				return BigInt(`0x${hex}`);
+			};
+			const n = toBigInt(modulus);
+			const e = toBigInt(exponent);
+			// 模数最高位可能带 0x00 填充，按实际位数计算密钥长度
+			return { n, e, size: Math.ceil(n.toString(2).length / 8) };
+		},
+
+		/**
+		 * RSA PKCS#1 v1.5 加密
+		 * @author hacksynth
+		 * @description WebCrypto 不支持 PKCS#1 v1.5 加密，此处使用大数运算实现
+		 * @param {String} pem - PEM 公钥
+		 * @param {String} text - 待加密内容
+		 * @returns {Uint8Array} 密文字节
+		 */
+		fnosRsaEncrypt(pem, text) {
+			const key = base.fnosParseRsaKey(pem);
+			const data = new window.TextEncoder().encode(text);
+			if (data.length > key.size - 11) throw new Error("fnOS 加密内容过长");
+			const block = new Uint8Array(key.size);
+			block[1] = 0x02;
+			const padding = key.size - data.length - 3;
+			const random = new Uint8Array(padding);
+			for (let filled = 0; filled < padding;) {
+				window.crypto.getRandomValues(random);
+				for (let i = 0; i < random.length && filled < padding; i++) {
+					if (random[i] === 0) continue;
+					block[2 + filled++] = random[i];
+				}
+			}
+			block.set(data, 3 + padding);
+			let value = 0n;
+			for (let i = 0; i < block.length; i++) value = (value << 8n) | BigInt(block[i]);
+			let result = base.fnosModPow(value, key.e, key.n);
+			const out = new Uint8Array(key.size);
+			for (let i = key.size - 1; i >= 0; i--) {
+				out[i] = Number(result & 0xffn);
+				result >>= 8n;
+			}
+			return out;
+		},
+
+		/**
+		 * AES-256-CBC 加密（PKCS#7 填充）
+		 * @author hacksynth
+		 * @param {String} key - 密钥串（32 字符）
+		 * @param {Uint8Array} iv - 初始向量
+		 * @param {String} text - 待加密内容
+		 * @returns {Promise<Uint8Array>} 密文字节
+		 */
+		async fnosAesEncrypt(key, iv, text) {
+			const encoder = new window.TextEncoder();
+			const cryptoKey = await window.crypto.subtle.importKey("raw", encoder.encode(key), { name: "AES-CBC" }, false, ["encrypt"]);
+			const cipher = await window.crypto.subtle.encrypt({ name: "AES-CBC", iv }, cryptoKey, encoder.encode(text));
+			return new Uint8Array(cipher);
+		},
+
+		/**
+		 * 生成飞牛 fnOS 设备标识
+		 * @author hacksynth
+		 * @returns {String} 设备标识
+		 */
+		fnosDeviceId() {
+			let did = base.getValue("setting_fnos_device");
+			if (!did) {
+				did = `linkswift-${Date.now().toString(36)}-${base.fnosRandomKey(10)}`;
+				base.setValue("setting_fnos_device", did);
+			}
+			return did;
+		},
+
+		/**
+		 * 生成飞牛 fnOS 的 WebSocket 地址
+		 * @author hacksynth
+		 * @param {Object} server - fnOS 服务配置项
+		 * @returns {String} WebSocket 地址
+		 */
+		fnosSocketURL(server) {
+			const domain = String(server.domain || "").trim();
+			const target = new URL(/^https?:\/\//i.test(domain) ? domain : `http://${domain}`);
+			const port = String(server.port || "").trim();
+			if (port) target.port = port;
+			if (!target.port) target.port = target.protocol === "https:" ? "6551" : "6550";
+			const scheme = target.protocol === "https:" ? "wss" : "ws";
+			return `${scheme}://${target.hostname}:${target.port}/websocket?type=main`;
+		},
+
+		/**
+		 * 将飞牛 fnOS 的错误响应转换为可读文本
+		 * @author hacksynth
+		 * @param {Object} packet - 响应数据
+		 * @returns {String} 错误描述
+		 */
+		fnosErrorText(packet) {
+			const errno = packet && packet.errno;
+			const table = {
+				4224: "登录状态异常，请重新登录",
+				131072: "账号或密码错误",
+				65534: "会话已失效，请重试",
+				65535: "服务器返回失败"
+			};
+			const text = (packet && packet.errmsg) || table[errno];
+			if (text) return `fnOS ${text}`;
+			return errno ? `fnOS 返回错误（errno: ${errno}）` : "fnOS 未返回有效响应";
+		},
+
+		/**
+		 * 提示飞牛 fnOS 相关错误
+		 * @author hacksynth
+		 * @param {Error|String} error - 错误对象
+		 */
+		fnosErrorNotify(error) {
+			const text = (error && error.message) || String(error || "");
+			if (!text) return;
+			try { message.error(text); } catch { }
+		},
+
+		/**
+		 * 向飞牛 fnOS 连接发送请求并等待响应
+		 * @author hacksynth
+		 * @description 同一连接上的请求按顺序排队，响应按到达顺序匹配
+		 * @param {WebSocket} socket - fnOS 连接
+		 * @param {Object} payload - 请求内容
+		 * @param {Number} [timeout=15000] - 超时时间
+		 * @returns {Promise<Object>} 响应数据
+		 */
+		async fnosRequest(socket, payload, timeout = 15000) {
+			const reqid = `${Date.now()}-${socket.fnosSeq++}`;
+			const data = typeof payload === "function" ? await payload(reqid) : { ...payload, reqid };
+			return new Promise((resolve, reject) => {
+				const waiter = (packet) => {
+					clearTimeout(timer);
+					if (packet && packet.result === "doing") {
+						socket.fnosPending.set(reqid, waiter);
+						return;
+					}
+					socket.fnosPending.delete(reqid);
+					resolve(packet);
+				};
+				const timer = setTimeout(() => {
+					socket.fnosPending.delete(reqid);
+					reject(new Error("fnOS 请求超时"));
+				}, timeout);
+				socket.fnosPending.set(reqid, waiter);
+				base.console.info("【LinkSwift】fnOS 请求：", data);
+				socket.send(JSON.stringify(data));
+			});
+		},
+
+		/**
+		 * 建立并登录飞牛 fnOS 连接
+		 * @author hacksynth
+		 * @description 飞牛系统的会话绑定在 WebSocket 连接上，因此登录与后续调用使用同一条连接
+		 * @param {Object} server - fnOS 服务配置项（domain、port、user、password）
+		 * @param {Boolean} [force=false] - 是否强制重新连接
+		 * @returns {Promise<WebSocket>} 已登录的连接
+		 */
+		async fnosConnect(server, force = false) {
+			const key = `${server.domain}|${server.port}|${server.user}`;
+			base.fnosSockets = base.fnosSockets || {};
+			const cached = base.fnosSockets[key];
+			if (!force && cached && cached.readyState === 1 && cached.fnosAuthed) return cached;
+			if (cached) {
+				try { cached.close(); } catch { }
+				delete base.fnosSockets[key];
+			}
+			if (!server.user || !server.password) throw new Error("请先填写 fnOS 账号与密码");
+			if (!window.crypto || !window.crypto.subtle) throw new Error("当前页面并非安全环境（HTTPS），无法进行 fnOS 加密登录");
+
+			const socket = new window.WebSocket(base.fnosSocketURL(server));
+			await new Promise((resolve, reject) => {
+				const timer = setTimeout(() => reject(new Error("连接 fnOS 超时，请检查主机与端口")), 12000);
+				socket.addEventListener("open", () => { clearTimeout(timer); resolve(); }, { once: true });
+				socket.addEventListener("error", () => {
+					clearTimeout(timer);
+					reject(new Error("无法连接 fnOS：请检查地址与端口；HTTPS 页面要求飞牛系统使用 HTTPS（wss）且已信任其证书"));
+				}, { once: true });
+			});
+
+			socket.fnosPending = new Map();
+			socket.fnosSeq = 0;
+			socket.addEventListener("message", (event) => {
+				let packet;
+				try { packet = JSON.parse(event.data); } catch { return; }
+				if (!packet || typeof packet !== "object") return;
+				const waiter = packet.reqid && socket.fnosPending.get(packet.reqid);
+				if (waiter) waiter(packet);
+			});
+			socket.addEventListener("close", () => {
+				socket.fnosAuthed = false;
+				const pendings = Array.from(socket.fnosPending.values());
+				socket.fnosPending.clear();
+				pendings.forEach((waiter) => waiter({ result: "fail", errmsg: "连接已断开" }));
+			});
+
+			const auth = await base.fnosRequest(socket, { req: "util.crypto.getRSAPub", data: {} }, 12000);
+			if (!auth || !auth.pub) throw new Error(base.fnosErrorText(auth));
+
+			const secret = base.fnosRandomKey(32);
+			const iv = new Uint8Array(16);
+			window.crypto.getRandomValues(iv);
+			const account = {
+				req: "user.login",
+				user: server.user,
+				password: server.password,
+				deviceName: `LinkSwift-${navigator.platform || "Web"}`,
+				deviceType: "Browser",
+				stay: true,
+				did: base.fnosDeviceId(),
+				si: auth.si
+			};
+			// 飞牛系统按加密内容中的 reqid 返回响应，因此需要先取号再加密
+			const login = await base.fnosRequest(socket, async (reqid) => ({
+				req: "encrypted",
+				reqid,
+				iv: base.fnosToBase64(iv),
+				rsa: base.fnosToBase64(base.fnosRsaEncrypt(auth.pub, secret)),
+				aes: base.fnosToBase64(await base.fnosAesEncrypt(secret, iv, JSON.stringify({ ...account, reqid })))
+			}), 15000);
+			if (!login || login.result !== "succ") {
+				try { socket.close(); } catch { }
+				throw new Error(base.fnosErrorText(login));
+			}
+
+			socket.fnosAuthed = true;
+			socket.fnosInfo = login.data || {};
+			base.fnosSockets[key] = socket;
+			base.console.info("【LinkSwift】fnOS 登录成功", socket.fnosInfo.user || server.user || "");
+			return socket;
+		},
+
+		/**
+		 * 飞牛 fnOS 服务测试
+		 * @author hacksynth
+		 * @description 使用账号密码登录飞牛系统，并调用只读接口验证下载中心可用性
+		 * @param {Object} server - fnOS 服务配置项
 		 * @returns {Promise<"success"|"fail">} 连接状态结果
 		 */
-		async testConnectToFnos(domain, port, token, longToken) {
+		async testConnectToFnos(server) {
 			try {
-				const rpc = base.fnosRpc({ domain, port, token, longToken }, {
-					req: "appcgi.downloadcenter.config.getDefaultSaveDir"
-				});
-				base.console.info("【LinkSwift】Post(start) FnosTest\n请求地址：" + rpc.url + "\n请求内容：", rpc.data);
-				const res = await base.post(rpc.url, rpc.data, rpc.headers, "json", false);
-				base.console.info("【LinkSwift】Post(load) FnosTest\n请求地址：" + rpc.url + "\n请求结果：", res);
-				if (res && res.result === "succ") return "success";
-				return "fail";
+				const socket = await base.fnosConnect(server, true);
+				const res = await base.fnosRequest(socket, { req: "appcgi.downloadcenter.config.getDefaultSaveDir" });
+				base.console.info("【LinkSwift】fnOS 测试结果：", res);
+				return (res && res.result === "succ") ? "success" : "fail";
 			} catch (error) {
-				base.console.error("【LinkSwift】Post(error) FnosTest\n请求失败", error);
+				base.console.error("【LinkSwift】fnOS 测试失败：", error);
+				base.fnosErrorNotify(error);
 				return "fail";
 			}
 		},
@@ -2233,8 +2526,8 @@
 						{
 							domain: "http://localhost",
 							port: "6550",
-							token: "",
-							longToken: "",
+							user: "",
+							password: "",
 							dir: "",
 							default: true
 						}
@@ -2697,25 +2990,25 @@
 				</label>
 				<label class="${mount} setting-item">
 					<div>服务主机</div>
-					<input type="text" autocomplete="off" placeholder="主机地址，需带上 http(s)://，无需写端口与路径，例如 http://192.168.0.100" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.domain" value="">
+					<input type="text" autocomplete="off" placeholder="主机地址，需带上 http(s)://，无需写端口与路径，例如 https://192.168.0.100" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.domain" value="">
 				</label>
 				<label class="${mount} setting-item">
 					<div>服务端口</div>
-					<input type="text" autocomplete="off" placeholder="飞牛系统 Web 端口，例如 6550、5666" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.port" value="">
+					<input type="text" autocomplete="off" placeholder="飞牛系统 Web 端口，HTTP 一般 6550，HTTPS 一般 6551" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.port" value="">
 				</label>
 				<label class="${mount} setting-item">
-					<div>会话令牌</div>
-					<input type="text" autocomplete="off" placeholder="浏览器 Cookie 中 ost 的值" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.token" value="">
+					<div>账号</div>
+					<input type="text" autocomplete="off" placeholder="飞牛系统登录账号，例如 admin" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.user" value="">
 				</label>
 				<label class="${mount} setting-item">
-					<div>长期令牌</div>
-					<input type="text" autocomplete="off" placeholder="浏览器 Cookie 中 osrt 的值" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.longToken" value="">
+					<div>密码</div>
+					<input type="password" autocomplete="off" placeholder="飞牛系统登录密码" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.password" value="">
 				</label>
 				<label class="${mount} setting-item">
 					<div>存储路径</div>
 					<input type="text" autocomplete="off" placeholder="文件下载后保存位置，例如 /vol1/1000/Downloads，留空则使用默认" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.dir" value="">
 				</label>
-				<p style="text-align:start">提示：此方式通过飞牛系统的 RPC 接口把下载地址交给下载中心（dlcenter），由 aria2 / qBittorrent 完成下载，因此需要有效的登录令牌。<br/>令牌获取方法：在已登录飞牛系统的浏览器中按 <b>F12</b> 打开开发者工具 → <b>应用程序（Application）</b> / <b>存储（Storage）</b> → <b>Cookie</b> → 复制 <b>ost</b> 的值填入“会话令牌”，或复制 <b>osrt</b> 的值填入“长期令牌”。<br/>两者填其一即可，推荐使用有效期更长的长期令牌；令牌失效后重新复制即可。</p>`;
+				<p style="text-align:start">提示：此方式会使用账号密码登录飞牛系统，并把下载地址交给下载中心（dlcenter），由 aria2 / qBittorrent 完成下载。<br/>账号密码仅保存在脚本管理器的本地存储中，用于自动登录飞牛系统。<br/><b>HTTPS 网盘页面必须连接 HTTPS 的飞牛系统</b>：请填写带 <b>https://</b> 的主机与 6551 端口，并先在浏览器中访问一次该地址、信任其证书，否则浏览器会拦截连接。</p>`;
 			Swal.fire({
 				...temp.swalDefault,
 				title: "fnOS 服务设置",
@@ -2861,6 +3154,13 @@
 				</blockquote>
 				<div>(ﾉ◕ヮ◕)ﾉ 遇到 Bug 要记得去 <a class="pl-a" href="https://github.com/hmjz100/LinkSwift/issues" target="_blank">Github 议题</a> 向我报告哦~</div>
 				<div>(o゜▽゜)o☆ 觉得好用？来一同完善本项目吧~ 欢迎提交<a class="pl-a" href="https://github.com/hmjz100/LinkSwift/pulls" target="_blank">拉取请求</a>为本项目做贡献~</div>
+				<hr/>
+				<div class="block">
+					<name>v1.1.6</name>
+					<div>
+						<p>1、优化 - fnOS 下载改为使用账号密码登录，无需再手动复制令牌。</p>
+					</div>
+				</div>
 				<hr/>
 				<div class="block">
 					<name>v1.1.5</name>
@@ -3699,11 +3999,7 @@
 							port = selected.port;
 						result = await base.testConnectToABDM(domain, port);
 					} else if (type === "fnos") {
-						const domain = selected.domain,
-							port = selected.port,
-							token = selected.token,
-							longToken = selected.longToken;
-						result = await base.testConnectToFnos(domain, port, token, longToken);
+						result = await base.testConnectToFnos(selected);
 					}
 					if (result === "success") {
 						text.html("成功");
@@ -5731,11 +6027,23 @@ button.downloadSubtitle:disabled {
 							select_files: false
 						};
 						if (selected.dir) params.save_dir = selected.dir;
-						const rpc = base.fnosRpc(selected, params);
-						const res = await base.post(rpc.url, rpc.data, rpc.headers, "json", false);
-						if (res && res.result === "succ") return "success";
-						base.console.error("【LinkSwift】SendTo(error) fnOS\n请求地址：" + rpc.url + "\n请求结果：", res);
-						return "fail";
+						try {
+							let socket = await base.fnosConnect(selected);
+							let res = await base.fnosRequest(socket, params, 20000);
+							if (res && res.errno === 65534) {
+								// 会话失效，重新登录后重试一次
+								socket = await base.fnosConnect(selected, true);
+								res = await base.fnosRequest(socket, params, 20000);
+							}
+							if (res && res.result === "succ") return "success";
+							base.console.error("【LinkSwift】SendTo(error) fnOS\n请求结果：", res);
+							base.fnosErrorNotify(new Error(base.fnosErrorText(res)));
+							return "fail";
+						} catch (error) {
+							base.console.error("【LinkSwift】SendTo(error) fnOS", error);
+							base.fnosErrorNotify(error);
+							return "fail";
+						}
 					});
 				},
 			},
