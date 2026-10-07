@@ -1,7 +1,7 @@
 ﻿// ==UserScript==
 // @name              LinkSwift
 // @namespace         github.com/hmjz100
-// @version           1.1.4
+// @version           1.1.5
 // @author            Hmjz100、油小猴
 // @icon              data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTAzLjYgMTA3LjRjMy41LTIuMiA4LjktNi4xIDEzLjgtMTIuNXM3LjMtMTIuNSA4LjUtMTYuNWMuNS0xLjcgMi4yLTcuNSAyLjItMTQuNyAwLTEwLjEtMy4zLTI1LjEtMTUuNC0zNi44LTE0LjUtMTQtMzIuMS0xNC4zLTM1LjctMTQuMy04IDAtMTUuNyAxLjktMjIuNiA1LjJDNDQgMjMgMzUuNyAzMS40IDMwLjggNDEuN2MtMS4zIDIuOC00IDQuNy03LjEgNS00IC4zLTcuNSA0LjQtOC45IDkuNi0uNSAxLjktMS42IDMuNS0zLjEgNC43QzQuNCA2Ni44IDAgNzUuNyAwIDg1YzAgNi44IDIuMyAxMy4xIDYuMSAxOC4yIDUuNSA3LjQgMTQuMiAxMi4yIDI0IDEyLjJoNDcuMWM0LjQgMCAxMS0uNSAxOC4zLTMuNSAzLjItMS40IDUuOS0zIDguMS00LjV6IiBmaWxsPSIjQTA5OUYwIi8+PHBhdGggZD0iTTExOS44IDY0LjNjLjEtMTcuMS0xMC40LTI4LTEyLjUtMzAuMUM5NSAyMi4xIDc5LjkgMjEuOCA3Ni45IDIxLjhjLTE3LjYgMC0zMy4zIDEwLjUtMzkuOSAyNi43LS42IDEuMy0xLjggMi4zLTMuNCAyLjNoLS40Yy01LjggMC0xMC42IDQuOC0xMC42IDEwLjd2LjVjMCAxLjQtLjggMi42LTEuOSAzLjNDMTMuNCA2OSA4LjggNzYuOCA4LjggODVjMCAxMi4yIDkuOSAyMi4zIDIyLjIgMjIuM2g0NS4yYzMuNi0uMSAxNy42LS45IDI5LjYtMTIgMi45LTIuOCAxMy45LTEzLjcgMTQtMzF6IiBmaWxsPSIjNTc0QUI4Ii8+PHBhdGggZD0iTTExMC44IDU3LjRsLjIgMy4zYzAgMS4zLTEuMSAyLjQtMi4zIDIuNC0xLjMgMC0yLjMtMS4xLTIuMy0yLjRsLS4xLTIuOHYtLjNjMC0xLjIuOS0yLjIgMi4xLTIuM2guM2MuNyAwIDEuMy4zIDEuNy43LS4yLjEuMy41LjQgMS40em0tMy4zLTEwLjNjMCAxLjItMSAyLjMtMi4yIDIuM2gtLjFjLS44IDAtMS42LS41LTItMS4yLTQuNi04LjMtMTMuMy0xMy41LTIyLjgtMTMuNS0xLjIgMC0yLjMtMS0yLjMtMi4ydi0uMWMwLTEuMiAxLTIuMyAyLjItMi4zaC4xYTMwLjM3IDMwLjM3IDAgMCAxIDE1LjggNC40YzQuNiAyLjggOC40IDYuOCAxMS4xIDExLjUuMS4zLjIuNy4yIDEuMXpNODguMyA3My44TDczLjUgOTMuMmMtMS41IDEuOS0zLjUgMy4xLTUuNyAzLjVoLS4yYy0uNC4xLS44LjEtMS4yLjEtLjYgMC0xLjEtLjEtMS42LS4yLTIuMi0uNC00LjItMS43LTUuNi0zLjVMNDQuMyA3My45Yy0yLTIuNi0yLjUtNS40LTEuNC03LjcuMS0uMS4xLS4yLjItLjIgMS4yLTIgMy41LTMuMiA2LjQtMy4yaDYuNnYtNS43YzAtNi44IDQuNy0xMiAxMC45LTEyIDQuOCAwIDguNSAyLjYgMTAuMyA3LjIuNSAxLjMtLjIgMi43LTEuNSAzLjJzLTIuOC0uMS0zLjMtMS40Yy0xLjEtMi43LTIuOS00LTUuNS00LTMuNSAwLTYgMy02IDd2OC4xYzAgLjUtLjIgMS0uNiAxLjQtLjYuNy0xLjcgMS4xLTIuNiAxLjFoLTguNGMtMS4zIDAtMiAuNC0yLjEuNy0uMi40IDAgMS4zLjkgMi40TDYzLjEgOTBjLjkgMS4yIDIuMSAxLjggMy4zIDEuOHMyLjMtLjYgMy4xLTEuN2wxNC44LTE5LjNjLjktMS4xIDEuMS0yIC45LTIuNC0uMi0uMy0uOS0uNy0yLjEtLjdoLTcuNmMtLjkgMC0xLjctLjUtMi4xLTEuMi0uMy0uNC0uNC0uOC0uNC0xLjMgMC0xLjQgMS4xLTIuNSAyLjUtMi41aDcuNmMzLjEgMCA1LjUgMS4zIDYuNiAzLjVsLjMuN2MuNyAyLjEuMSA0LjYtMS43IDYuOXoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=
 // @description       (｡>ᴗ•)✧《也许同类型中最好用？》系列 - 一个基于 JavaScript 的网盘文件下载地址获取工具✨，基于【网盘直链下载助手】修改 | 支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 光鸭云盘 / 夸克网盘 / UC网盘 / 123云盘 九大网盘 | 开源・自用・去广 | 改界面・添功能・修Bug | 既超越原版，亦是同类中最好用版本！👋
@@ -110,7 +110,7 @@
  * @author hmjz100
  * @namespace github.com/hmjz100
  * @description  一个基于 JavaScript 盘的文件下载地址获取工具  支持 百度网盘/阿里云盘/中国移动云盘/天翼云盘/迅雷云盘/夸克网盘/UC网盘/123云盘 九大网盘  代码改自 “网盘直链下载助手”，作者油小猴
- * @version 1.1.4
+ * @version 1.1.5
  * @license AGPL-3.0-or-later
  * @see {@link https://github.com/hmjz100/LinkSwift/ Github 仓库}
  */
@@ -254,6 +254,10 @@
 					abdm: {
 						title: "ABDM 下载",
 						footer: `<p>适用于 <a href="https://abdownloadmanager.com/" target="_blank" class="pl-a" data-no-instant="1"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-link"></use></svg>AB Download Manager</a></p>`
+					},
+					fnos: {
+						title: "fnOS 下载",
+						footer: `<p>适用于 <a href="https://www.fnnas.com/" target="_blank" class="pl-a" data-no-instant="1"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-link"></use></svg>飞牛私有云 fnOS</a> 内置的下载中心（dlcenter）</p>`
 					}
 				},
 				copy: {
@@ -1549,6 +1553,63 @@
 		},
 
 		/**
+		 * 构造飞牛 fnOS 下载中心（dlcenter）的 RPC 请求
+		 * @author hacksynth
+		 * @description 飞牛系统以 `appcgi.*` 命名空间提供 RPC 服务，请求体形如 `{ req, data, token }`，
+		 * 令牌也可放在 Cookie（`fnos-token` / `fnos-long-token`）中；此处同时携带以兼容不同系统版本。
+		 * 参数同时平铺与嵌套于 `data` 中，兼容两种解析风格。
+		 * @param {Object} server - fnOS 服务配置项（domain、port、token、longToken）
+		 * @param {Object} params - RPC 参数（必须包含 `req` 字段）
+		 * @returns {{url: String, headers: Object, data: Object}} 请求配置
+		 */
+		fnosRpc(server, params) {
+			const origin = `${(server.domain || "").replace(/\/+$/, "")}:${server.port || ""}`;
+			const headers = { "Content-Type": "application/json;charset=UTF-8" };
+			const data = { ...params, data: { ...params } };
+			delete data.data.req;
+			const cookies = [];
+			let query = "";
+			if (server.token) {
+				data.token = server.token;
+				cookies.push(`fnos-token=${server.token}`);
+				query = `?token=${encodeURIComponent(server.token)}`;
+			}
+			if (server.longToken) {
+				data.longToken = server.longToken;
+				cookies.push(`fnos-long-token=${server.longToken}`);
+				if (!query) query = `?token=${encodeURIComponent(server.longToken)}`;
+			}
+			if (cookies.length) headers.Cookie = cookies.join("; ");
+			return { url: `${origin}/cgi${query}`, headers, data };
+		},
+
+		/**
+		 * 飞牛 fnOS 下载中心 RPC 服务测试
+		 * @author hacksynth
+		 * @description 通过只读接口 `appcgi.downloadcenter.config.getDefaultSaveDir` 验证地址与令牌是否可用
+		 * @param {String} domain - 服务域名
+		 * @param {String} port - 服务端口
+		 * @param {String} token - 会话令牌
+		 * @param {String} longToken - 长期令牌
+		 * @returns {Promise<"success"|"fail">} 连接状态结果
+		 */
+		async testConnectToFnos(domain, port, token, longToken) {
+			try {
+				const rpc = base.fnosRpc({ domain, port, token, longToken }, {
+					req: "appcgi.downloadcenter.config.getDefaultSaveDir"
+				});
+				base.console.info("【LinkSwift】Post(start) FnosTest\n请求地址：" + rpc.url + "\n请求内容：", rpc.data);
+				const res = await base.post(rpc.url, rpc.data, rpc.headers, "json", false);
+				base.console.info("【LinkSwift】Post(load) FnosTest\n请求地址：" + rpc.url + "\n请求结果：", res);
+				if (res && res.result === "succ") return "success";
+				return "fail";
+			} catch (error) {
+				base.console.error("【LinkSwift】Post(error) FnosTest\n请求失败", error);
+				return "fail";
+			}
+		},
+
+		/**
 		 * 重置请求相关数据
 		 * @author 油小猴
 		 * @description 中止所有进行中的请求，清除进度记录和定时器
@@ -2167,6 +2228,19 @@
 					]
 				},
 				{
+					name: "setting_fnos_rpc",
+					value: [
+						{
+							domain: "http://localhost",
+							port: "6550",
+							token: "",
+							longToken: "",
+							dir: "",
+							default: true
+						}
+					]
+				},
+				{
 					name: "setting_curl_terminal",
 					value: "wc"
 				},
@@ -2275,6 +2349,10 @@
 					<div>AB Download Manager 服务器</div>
 					<button action="settings" type="abdm" class="${mount} btn default" data-back-to-setting="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>配置</span></button>
 				</label>
+				<label class="${mount} setting-item tip fnos" data-title="有关飞牛 fnOS 下载中心（dlcenter）的配置">
+					<div>fnOS 服务器</div>
+					<button action="settings" type="fnos" class="${mount} btn default" data-back-to-setting="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>配置</span></button>
+				</label>
 				<label class="${mount} setting-item curl">
 					<div>终端类型</div>
 					<select name="terminal" class="${mount} input swal2-select">
@@ -2297,7 +2375,7 @@
 				didOpen: (toast) => {
 					const element = $(toast);
 					if (target?.data?.().some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass(`${mount} tip`).attr("data-title", "返回上页").css({ "left": "10px", "right": "auto" }).text("◃");
-					if (target?.data?.("back-to-downloads")) element.find(".aria2, .bitcomet, .abdm, .other").hide();
+					if (target?.data?.("back-to-downloads")) element.find(".aria2, .bitcomet, .abdm, .fnos, .other").hide();
 				},
 				willClose: () => {
 					if (target?.data?.("back-to-downloads")) base.showMainDialog(config.base.dom.method[temp.mode].title, download.generateDOM(true), config.base.dom.method[temp.mode].footer);
@@ -2596,6 +2674,80 @@
 		},
 
 		/**
+		 * 显示飞牛 fnOS 服务设置界面
+		 * @author hacksynth
+		 * @description 包含飞牛 fnOS 下载中心（dlcenter）RPC 配置的交互界面
+		 */
+		showFnosSetting(target) {
+			const FnosList = base.getValue("setting_fnos_rpc");
+			const FnosOptions = FnosList.map((item, index) => {
+				return `<option value="${index}"${item.default ? " selected" : ""}>${item.domain ? item.domain : ""}${item.port ? ":" + item.port : ""}</option>`;
+			}).join("");
+			let FnosSelected = FnosList.find(i => i.default);
+			const FnosSetting = `<div style="text-align:center;">适用于飞牛 fnOS 下载中心（dlcenter）推送下载</div>
+				<label class="${mount} setting-item">
+					<div>默认配置</div>
+					<div>
+						<select class="${mount} input swal2-select listener-rpc-select" data-type="fnos" style="max-width:50%;min-width:auto">
+							${FnosOptions}<option value="new">+ 创建新项目</option>
+						</select>
+						<button class="${mount} btn danger listener-rpc-delete" data-type="fnos"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-x-mark"/></svg><span>删除</span></button>
+						<button class="${mount} btn listener-rpc-test" data-type="fnos" style="margin-left:0"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-plug"/></svg><span>测试</span></button>
+					</div>
+				</label>
+				<label class="${mount} setting-item">
+					<div>服务主机</div>
+					<input type="text" autocomplete="off" placeholder="主机地址，需带上 http(s)://，无需写端口与路径，例如 http://192.168.0.100" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.domain" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>服务端口</div>
+					<input type="text" autocomplete="off" placeholder="飞牛系统 Web 端口，例如 6550、5666" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.port" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>会话令牌</div>
+					<input type="text" autocomplete="off" placeholder="浏览器 Cookie 中 ost 的值" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.token" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>长期令牌</div>
+					<input type="text" autocomplete="off" placeholder="浏览器 Cookie 中 osrt 的值" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.longToken" value="">
+				</label>
+				<label class="${mount} setting-item">
+					<div>存储路径</div>
+					<input type="text" autocomplete="off" placeholder="文件下载后保存位置，例如 /vol1/1000/Downloads，留空则使用默认" class="${mount} input swal2-input listener-rpc-input" data-type="fnos.dir" value="">
+				</label>
+				<p style="text-align:start">提示：此方式通过飞牛系统的 RPC 接口把下载地址交给下载中心（dlcenter），由 aria2 / qBittorrent 完成下载，因此需要有效的登录令牌。<br/>令牌获取方法：在已登录飞牛系统的浏览器中按 <b>F12</b> 打开开发者工具 → <b>应用程序（Application）</b> / <b>存储（Storage）</b> → <b>Cookie</b> → 复制 <b>ost</b> 的值填入“会话令牌”，或复制 <b>osrt</b> 的值填入“长期令牌”。<br/>两者填其一即可，推荐使用有效期更长的长期令牌；令牌失效后重新复制即可。</p>`;
+			Swal.fire({
+				...temp.swalDefault,
+				title: "fnOS 服务设置",
+				html: FnosSetting,
+				icon: "info",
+				iconHtml: "⚙︎",
+				allowOutsideClick: false,
+				showCloseButton: true,
+				showConfirmButton: false,
+				footer: `<p><a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;&#47;&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;" target="_blank" class="pl-a"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-star"></use></svg>&#76;&#105;&#110;&#107;&#83;&#119;&#105;&#102;&#116;</a>&#32;&#30001;&#32;<a href="&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#103;&#105;&#116;&#104;&#117;&#98;&#46;&#99;&#111;&#109;&#47;&#104;&#109;&#106;&#122;&#49;&#48;&#48;" target="_blank" class="pl-a">&#104;&#109;&#106;&#122;&#49;&#48;&#48;</a>&#32;&#21046;&#20316;</p><p>${config.base.dom.footer}</p>`,
+				didOpen: (toast) => {
+					const element = $(toast);
+					if (Object.keys(target?.data?.() || {}).some(key => key.startsWith("backTo"))) element.find(".swal2-close").addClass(`${mount} tip`).attr("data-title", "返回上页").css({ "left": "10px", "right": "auto" }).text("◃");
+					if (FnosSelected) {
+						element.find(".listener-rpc-input").each((_, input) => {
+							const type = $(input).data("type").split(".")[1];
+							$(input).val(FnosSelected[type] || "");
+						});
+					} else {
+						FnosList[0].default = true;
+						base.setValue("setting_fnos_rpc", FnosList);
+						FnosSelected = FnosList[0];
+					}
+				},
+				willClose: () => {
+					if (target?.data?.("back-to-setting")) base.showSetting();
+					if (target?.data?.("back-to-downloads")) base.showMainDialog(config.base.dom.method[temp.mode].title, download.generateDOM(true), config.base.dom.method[temp.mode].footer);
+				},
+			});
+		},
+
+		/**
 		 * 显示美化设置界面
 		 * @author hmjz100
 		 * @description 提供主题颜色选择器和各网盘界面美化配置
@@ -2709,6 +2861,13 @@
 				</blockquote>
 				<div>(ﾉ◕ヮ◕)ﾉ 遇到 Bug 要记得去 <a class="pl-a" href="https://github.com/hmjz100/LinkSwift/issues" target="_blank">Github 议题</a> 向我报告哦~</div>
 				<div>(o゜▽゜)o☆ 觉得好用？来一同完善本项目吧~ 欢迎提交<a class="pl-a" href="https://github.com/hmjz100/LinkSwift/pulls" target="_blank">拉取请求</a>为本项目做贡献~</div>
+				<hr/>
+				<div class="block">
+					<name>v1.1.5</name>
+					<div>
+						<p>1、新增 - 飞牛私有云 fnOS 下载方式，支持推送下载地址到 fnOS 下载中心（dlcenter）；</p>
+					</div>
+				</div>
 				<hr/>
 				<div class="block">
 					<name>v1.1.4 (测试版，非最终品质)</name>
@@ -3401,6 +3560,21 @@
 		},
 
 		/**
+		 * 为下载方式菜单注入 fnOS 下载入口
+		 * @author hacksynth
+		 * @description 各网盘的下拉菜单均为静态模板且结构一致，此处统一监听 ABDM 入口并复制生成 fnOS 入口，
+		 * 避免逐一修改各网盘模板，也能覆盖后续新增的网盘。
+		 */
+		injectFnosMenu() {
+			base.waitForKeyElements(`[data-mode="abdm"]`, ($anchor) => {
+				if ($anchor.next(`[data-mode="fnos"]`).length) return;
+				const $item = $anchor.clone();
+				$item.attr("data-mode", "fnos").find("span").text("fnOS 下载");
+				$anchor.after($item);
+			});
+		},
+
+		/**
 		 * 添加页面元素监听
 		 * @author 油小猴
 		 * @author hmjz100
@@ -3418,6 +3592,7 @@
 					case "aria2": base.showAria2Setting(target); break;
 					case "bitcomet": base.showBitcometSetting(target); break;
 					case "abdm": base.showABDMSetting(target); break;
+					case "fnos": base.showFnosSetting(target); break;
 					default: break;
 				}
 			});
@@ -3523,6 +3698,12 @@
 						const domain = selected.domain,
 							port = selected.port;
 						result = await base.testConnectToABDM(domain, port);
+					} else if (type === "fnos") {
+						const domain = selected.domain,
+							port = selected.port,
+							token = selected.token,
+							longToken = selected.longToken;
+						result = await base.testConnectToFnos(domain, port, token, longToken);
 					}
 					if (result === "success") {
 						text.html("成功");
@@ -3552,6 +3733,9 @@
 			});
 			$doc.on("click", ".listener-open-abdm-setting", (e) => {
 				base.showABDMSetting(e);
+			});
+			$doc.on("click", ".listener-open-fnos-setting", (e) => {
+				base.showFnosSetting(e);
 			});
 			$doc.on("click", ".listener-open-updatelog", () => {
 				base.showUpdate();
@@ -4951,6 +5135,7 @@ button.downloadSubtitle:disabled {
 						case "aria2": res = await download.tools.sendTo.aria2(link, name, headers); break;
 						case "bitcomet": res = await download.tools.sendTo.bitcomet(link, name, headers); break;
 						case "abdm": res = await download.tools.sendTo.abdm(link, name, headers); break;
+						case "fnos": res = await download.tools.sendTo.fnos(link, name, headers); break;
 						default: break;
 					}
 				} catch (e) {
@@ -5150,6 +5335,14 @@ button.downloadSubtitle:disabled {
 							<button action="sendto" type="abdm" class="link ${mount} btn default mini"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg><span>推送地址到 ABDM 下载器</span></button>
 						</div>`);
 					}
+					if (temp.mode === "fnos") {
+						content.find(`.${mount}.main`).append(`<div class="item" data-index="${i}">
+
+							<div class="${mount} name tip" data-size="${size}"><div class="name">${name}</div><div class="size">${base.sizeFormat(size)}</div></div>
+
+							<button action="sendto" type="fnos" class="link ${mount} btn default mini"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg><span>推送地址到 fnOS 下载中心</span></button>
+						</div>`);
+					}
 				}
 			});
 			allLink = (allLink ? allLink.join("\r\n") : "")
@@ -5190,6 +5383,11 @@ button.downloadSubtitle:disabled {
 
 				content.find(`.${mount}.extra`).append(`<button action="settings" type="abdm" class="${mount} btn warning mini tip" data-title="${rpc.domain + ":" + rpc.port}" data-back-to-downloads="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>修改服务参数</button>`);
 				if (files.length >= 2) content.find(`.${mount}.extra`).append(`<button action="all" type="sendto.abdm" class="${mount} btn default mini"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg>全部推送至下载器</button>`);
+			} else if (temp.mode === "fnos") {
+				const rpc = base.getValue("setting_fnos_rpc").find(i => i.default);
+
+				content.find(`.${mount}.extra`).append(`<button action="settings" type="fnos" class="${mount} btn warning mini tip" data-title="${rpc.domain + ":" + rpc.port}" data-back-to-downloads="true"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-gear"/></svg>修改服务参数</button>`);
+				if (files.length >= 2) content.find(`.${mount}.extra`).append(`<button action="all" type="sendto.fnos" class="${mount} btn default mini"><svg class="pl-icon"><use xlink:href="#pl-icon-fa-cloud-arrow-up"/></svg>全部推送至下载器</button>`);
 			}
 			function updateTooltip($element, value) {
 				if (!value) return;
@@ -5508,6 +5706,35 @@ button.downloadSubtitle:disabled {
 						if (rpc.dir) data.folder = rpc.dir;
 						const res = await base.post(url, data, { "Content-Type": "text/plain;charset=UTF-8" }, "text", false);
 						if (res === "OK") return "success";
+						return "fail";
+					});
+				},
+				/**
+				 * 发送地址到飞牛 fnOS 下载中心（dlcenter）
+				 * @author hacksynth
+				 * @description 通过飞牛系统的 `appcgi` RPC 接口调用下载中心，由其内置的 aria2 / qBittorrent 完成下载
+				 * @param {String} link - 下载地址
+				 * @param {String} filename - 文件名
+				 * @param {Object} [headers] - 请求头对象（可选）
+				 * @returns {Promise<"success"|"fail">} 发送态结果
+				 */
+				async fnos(link, filename, headers) {
+					if (!this.fnos.lock) this.fnos.lock = Promise.resolve();
+					return this.fnos.lock = this.fnos.lock.then(async () => {
+						headers = base.standHeaders(headers);
+						base.console.info(`【LinkSwift】SendTo(start) fnOS\n文件名：${filename}\n下载地址：${link}\n请求头：`, headers);
+						const list = base.getValue("setting_fnos_rpc");
+						const selected = list.find(i => i.default);
+						const params = {
+							req: "appcgi.downloadcenter.task.addUris",
+							uris: [link],
+							select_files: false
+						};
+						if (selected.dir) params.save_dir = selected.dir;
+						const rpc = base.fnosRpc(selected, params);
+						const res = await base.post(rpc.url, rpc.data, rpc.headers, "json", false);
+						if (res && res.result === "succ") return "success";
+						base.console.error("【LinkSwift】SendTo(error) fnOS\n请求地址：" + rpc.url + "\n请求结果：", res);
 						return "fail";
 					});
 				},
@@ -9054,6 +9281,8 @@ button.downloadSubtitle:disabled {
 			// 创建按钮事件
 			base.addPageListener();
 			download.addPageListener();
+			// 注入 fnOS 下载入口
+			base.injectFnosMenu();
 			// 创建提示信息用的隐藏 tip
 			base.createTip();
 

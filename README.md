@@ -49,6 +49,24 @@
 
 - Github 国际: [hmjz100/LinkSwift/（改）网盘直链下载助手.user.js](https://github.com/hmjz100/LinkSwift/raw/dev/（改）网盘直链下载助手.user.js)
 
+## 推送到飞牛 fnOS
+
+在下载方式菜单中选择 **fnOS 下载**，即可把获取到的下载地址推送到飞牛私有云（fnOS）自带的「下载中心」，由 NAS 上的 aria2 / qBittorrent 完成下载。
+
+使用前请在「助手设置 → fnOS 服务器」中填写：
+
+| 配置项 | 说明 |
+| --- | --- |
+| 服务主机 | NAS 地址，需带 `http(s)://`，不含端口与路径，例如 `http://192.168.0.100` |
+| 服务端口 | 飞牛系统 Web 端口，例如 `6550`、`5666` |
+| 会话令牌 | 浏览器 Cookie 中 `ost` 的值（短效） |
+| 长期令牌 | 浏览器 Cookie 中 `osrt` 的值（长效，推荐） |
+| 存储路径 | 可选，下载保存位置，例如 `/vol1/1000/Downloads`，留空则使用系统默认 |
+
+令牌获取方法：在已登录飞牛系统的浏览器中按 `F12` 打开开发者工具 → 应用程序（Application）/ 存储（Storage）→ Cookie → 复制 `ost` 或 `osrt` 的值。两者填其一即可，令牌失效后重新复制即可。
+
+> 原理：脚本通过 HTTP 调用飞牛系统的 `appcgi` RPC 接口（`POST http(s)://<NAS>/cgi`，`req = appcgi.downloadcenter.task.addUris`）把下载地址提交给下载中心 `dlcenter`，因此需要有效的登录令牌。
+
 ## 说明
 
 > [!IMPORTANT]
@@ -96,6 +114,7 @@
 
 | 版本号 | 创建日期 | 更新日志 |
 | -------- | -------- | -------- |
+| 1.1.5   | 2026年10月07日 | 1、新增 - 飞牛私有云 fnOS 下载方式，支持推送下载地址到 fnOS 下载中心（dlcenter）。 |
 | 1.1.4   | 2026年09月09日 | (测试版，非最终品质)<br/>残暑未消风先快，一叶轻舟过万重。🍂🥮<br/>告别了繁杂与沉闷，LinkSwift 带来以下更新：<br/>1、新增 - 支持光鸭云盘；<br/>2、适配 - 变来变去的 123 云盘；<br/>3、优化 - 网络请求头标准化；<br/>4、优化 - 调样式，改类名，优逻辑；<br/>5、优化 - 使用 eslint 处理与检查脚本代码问题；<br/>6、优化 - 夸克网盘 Cookie 传递；<br/>（感谢 <a href="https://github.com/kwkvh" target="_blank">kwkvh</a> 提供的想法）<br/>7、修复 - 迅雷云盘样式调整导致脚本弹窗异常变大；<br/>8、修复 - 推送到 ABDM 下载器实际成功却显示失败。 |
 | 1.1.3   | 2026年02月16日 | LinkSwift 开发者在此祝您新春快乐！<br/>爆竹声中一岁除，春风送暖入屠苏。LinkSwift 迎来功能更新：<br/>1、新增 - IDM 客户端设置；<br/>2、优化 - 链接缓存、浮动提示框；<br/>3、适配 - 百度网盘分享页。 |
 | 1.1.2.1 | 2025年12月28日 | 1、新增 - API 下载的推送到 IDM 功能；<br/>（感谢 <a href="https://github.com/Night-stars-1" target="_blank">Night Stars</a> 的帮助）<br/>2、修复 - 复制 Aria2、cURL 命令行错误。 |
