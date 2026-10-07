@@ -1908,8 +1908,13 @@
 				throw new Error(base.fnosErrorText(login));
 			}
 
-			// user.* 的返回字段位于响应顶层（如 uid、admin、token），此处与 data 合并以兼容两种结构
-			const info = { ...login, ...(login.data && typeof login.data === "object" ? login.data : {}) };
+			// user.* 的返回字段位于响应顶层（如 uid、admin、token），此处逐层合并以兼容不同包装结构
+			const info = Object.assign({}, ...[
+				login,
+				login && login.data,
+				login && login.data && login.data.data,
+				login && login.data && login.data.rsp
+			].filter((item) => item && typeof item === "object"));
 			if (!info.token) {
 				try { socket.close(); } catch { }
 				const describe = (value) => (value && typeof value === "object" ? Object.keys(value).join("、") : String(value));
